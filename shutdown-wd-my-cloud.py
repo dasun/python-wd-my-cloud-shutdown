@@ -32,7 +32,7 @@ CMD_POWER_OFF_ONLY = '/sbin/poweroff'
 CMD_SHUTDOWN_AND_POWER_OFF = '/sbin/shutdown -h -P now'
 CMD_REBOOT = '/sbin/reboot'
 
-CMD = "ls -lhtr"
+CMD = CMD_SHUTDOWN_AND_POWER_OFF
 
 client = paramiko.SSHClient()
 client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
