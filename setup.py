@@ -8,6 +8,5 @@ setup(
     license='',
     author='Sachindra',
     author_email='',
-    description='',
-    install_requires=['paramiko']
+    description='', requires=['paramiko']
 )
